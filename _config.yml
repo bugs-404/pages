@@ -8,12 +8,12 @@ subtitle: 能力一般 水平有限
 description: 天使在想象中，魔鬼在细节里
 keywords:
 author: tianzk
-language:
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.tuzki.site
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,3 +82,9 @@ deploy:
   repo: https://github.com/frozensoft/frozensoft.github.io.git
   branch: master
   message: #leave this blank
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
